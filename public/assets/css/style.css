@@ -49,9 +49,11 @@ nav {
 }
 .textJust{
     text-align: justify !important;
+    
+}
+.fontWild{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .bannerStory2{
     height: 10rem;
     background-image: url("/assets/images/kreativa.jpg");
