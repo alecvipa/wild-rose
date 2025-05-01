@@ -42,10 +42,6 @@ app.get('/', function (req, res) {
 //     res.render('inicio');
 
 // });
-app.get('/:params?', function (req, res) {
-    var params = req.params.params;
-    res.render(params);
-})
 
 
 // Nodemailer route
