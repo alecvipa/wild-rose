@@ -43,6 +43,16 @@ app.get('/', function (req, res) {
 
 // });
 
+app.get('/home', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('home');
+
+});
+app.get('/privacy', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('privacy');
+
+});
 
 // Nodemailer route
 
