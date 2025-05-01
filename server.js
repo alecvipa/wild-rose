@@ -25,14 +25,14 @@ app.engine("handlebars", exphbs.engine({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Redirect to https://xyncs.com
-const targetBaseUrl = 'https://www.wildrose.com/home';
+// const targetBaseUrl = 'https://www.wildrosethemusical.com/home';
 
 
 
 // Routes
 app.get('/', function (req, res) {
-    res.redirect(targetBaseUrl);
-    // res.render('home');
+    // res.redirect(targetBaseUrl);
+    res.render('home');
 
 });
 app.get('/home', function (req, res) {
