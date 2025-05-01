@@ -19,6 +19,9 @@ nav {
     padding-top: 5%;
     padding-bottom: 1%;
 }
+.bgWhite{
+    background-color: white !important;
+}
 .titleVilpa2{
     width: 90% !important;
 }
@@ -39,6 +42,7 @@ nav {
     background-size: cover;
     display: block;
 }
+
 .bannerStory1{
     height: 43rem;
     background-image: url("/assets/images/blueShades2.jpg");
@@ -50,6 +54,9 @@ nav {
 .textJust{
     text-align: justify !important;
     
+}
+.textCentered{
+    text-align: center !important;
 }
 .fontWild{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
