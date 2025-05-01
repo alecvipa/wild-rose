@@ -34,6 +34,69 @@ nav {
     background-size: cover;
     display: block;
 }
+.sizeCarImg{
+    
+}
+.red1{
+   
+    background-image: url("/assets/images/wild1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red2{
+    background-image: url("/assets/images/wild2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red3{
+    background-image: url("/assets/images/wild3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red4{
+    background-image: url("/assets/images/wild4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red5{
+    background-image: url("/assets/images/wild5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red6{
+    background-image: url("/assets/images/wild6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red7{
+    background-image: url("/assets/images/wild7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.red8{
+    background-image: url("/assets/images/wild8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.carouselSize{
+    height: 45rem !important;
+}
 .fullCastBanner{
     height: 59rem;
     background-image: url("/assets/images/fullcastBanner.jpg");
@@ -169,6 +232,10 @@ p {
     min-width: 350px !important;
 }
 
+.iframeClass{
+    width: 100%;
+    height: 500px;
+}
 
 
 @media only screen and (min-width : 992px) {
@@ -204,7 +271,12 @@ p {
     .fullCastBanner{
         height: 20rem;
     }
-    
+    .carouselSize{
+        height: 28rem !important;
+    }
+    .contentFontSize{
+        font-size: 1.5rem !important;
+    }
     
 }
   
