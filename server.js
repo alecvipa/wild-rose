@@ -25,36 +25,27 @@ app.engine("handlebars", exphbs.engine({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Redirect to https://xyncs.com
-// const targetBaseUrl = 'https://www.wildrosethemusical.com/home';
+const targetBaseUrl = 'https://www.vilpafilms.com/home';
+
+
 
 
 
 // Routes
 app.get('/', function (req, res) {
-    // res.redirect(targetBaseUrl);
-    res.render('home');
-
-});
-app.get('/home', function (req, res) {
-    // res.redirect(targetBaseUrl);
-    res.render('home');
-
-});
-
-app.get('/privacy', function (req, res) {
-    // res.redirect(targetBaseUrl);
-    res.render('privacy');
+    res.redirect(targetBaseUrl);
+    // res.render('home');
 
 });
 // app.get('/inicio', function (req, res) {
 //     // res.redirect(targetBaseUrl);
 //     res.render('inicio');
 
-
-// app.get('/:params?', function (req, res) {
-//     var params = req.params.params;
-//     res.render(params);
-// })
+// });
+app.get('/:params?', function (req, res) {
+    var params = req.params.params;
+    res.render(params);
+})
 
 
 // Nodemailer route
