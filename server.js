@@ -48,6 +48,11 @@ app.get('/home', function (req, res) {
     res.render('home');
 
 });
+app.get('/inicio', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('inicio');
+
+});
 app.get('/privacy', function (req, res) {
     // res.redirect(targetBaseUrl);
     res.render('privacy');
